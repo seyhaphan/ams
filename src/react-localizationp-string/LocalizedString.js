@@ -1,0 +1,50 @@
+import LocalizedStrings from 'react-localization';
+
+export let strings = new LocalizedStrings({
+   en: {
+      ADD: 'ADD',
+      EDIT: 'EDIT',
+      DELETE: 'DELETE',
+      SEARCH: 'SEARCH',
+      ARTICLE_MANAGEMENT: 'Article Management',
+      ARTICLE: 'Article',
+      CATEGORY: 'Category',
+      LANGUAGE: 'Language',
+      CREATE_DATE: 'Create Date',
+      TITLE: 'Title',
+      DESCRIPTION: 'Description',
+      THUMBNAIL: 'Thumbnail',
+      NAME: 'Name',
+      ACTION: 'Action',
+      ADD_ARTICLE: 'Add Article',
+      UPDATE_ARTICLE: 'Update Article',
+      ENGLISH: 'English',
+      KHMER: 'ខ្មែរ',
+      SAVE: 'save',
+      VIEW: 'VIEW',
+      ADD_CATEGORY: 'Add Category'
+   },
+   kh: {
+      ADD: 'បន្ថែម អត្ថបទ',
+      EDIT: 'កែប្រែ',
+      DELETE: 'លុប',
+      SEARCH: 'ស្វែងរក',
+      ARTICLE_MANAGEMENT: 'ប្រព័ន្ធគ្រប់គ្រងព័ត៍មាន',
+      ARTICLE: 'អត្ថបទ',
+      CATEGORY: 'ប្រភេទ',
+      LANGUAGE: 'ភាសារ',
+      CREATE_DATE: 'កាលបរិច្ឆេទ',
+      TITLE: 'ចំណងជើង',
+      DESCRIPTION: 'ការពិពណ៌នា',
+      THUMBNAIL: 'រូបតំណាង',
+      NAME: 'ឈ្មោះ',
+      ACTION: 'សកម្មភាព',
+      ADD_ARTICLE: 'បន្ថែម អត្ថបទ',
+      UPDATE_ARTICLE: 'កែប្រែ អត្ថបទ',
+      KHMER: 'ខ្មែរ',
+      SAVE: 'រក្សាទុក',
+      VIEW: 'មើល',
+      ENGLISH: 'English',
+      ADD_CATEGORY: 'បង្កើត ប្រភេទ'
+   }
+});
